@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.labels-enter-active, .labels-leave-active{
+    transition: all .2s ease;
+}
+
+.labels-enter-from, .labels-leave-to{
+    opacity: 0;
+    transform: translateY(-10px);
+}
